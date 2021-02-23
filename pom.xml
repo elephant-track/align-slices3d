@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.scijava</groupId>
+        <artifactId>pom-scijava</artifactId>
+        <version>25.0.0</version>
+        <relativePath />
+    </parent>
+
+    <groupId>org.elephant</groupId>
+    <artifactId>align_slices3d</artifactId>
+    <version>1.0.0</version>
+
+    <properties>
+        <license.licenseName>BSD-2-Clause</license.licenseName>
+        <license.projectName>align-slices3d</license.projectName>
+        <license.copyrightOwners>Ko Sugawara</license.copyrightOwners>
+    </properties>
+
+    <name>Apply Alignment</name>
+    <description>Hyperstack-compatible Slice Alignment.</description>
+    <url>https://github.com/ksugar/align-slices</url>
+    <inceptionYear>2019</inceptionYear>
+    <organization>
+        <name>Institut de génomique fonctionnelle de Lyon</name>
+		<url>http://igfl.ens-lyon.fr/</url>
+    </organization>
+    <licenses>
+		<license>
+			<name>BSD-2-Clause</name>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+    <developers>
+        <developer>
+            <id>ksugar</id>
+            <name>Ko Sugawara</name>
+            <url>http://igfl.ens-lyon.fr/igfl/annuaire/sugawara-ko</url>
+            <roles>
+                <!-- See https://imagej.net/Team -->
+                <role>founder</role>
+                <role>lead</role>
+                <role>developer</role>
+                <role>debugger</role>
+                <role>reviewer</role>
+                <role>support</role>
+                <role>maintainer</role>
+            </roles>
+        </developer>
+    </developers>
+    <contributors>
+        <contributor>
+            <name>None</name>
+        </contributor>
+    </contributors>
+    <scm>
+        <connection>scm:git:git://github.com/ksugar/align-slices</connection>
+		<developerConnection>scm:git:git@github.com:ksugar/align-slices</developerConnection>
+		<tag>HEAD</tag>
+		<url>https://github.com/ksugar/align-slices</url>
+    </scm>
+    <issueManagement>
+        <url>https://github.com/ksugar/align-slices/issues</url>
+    </issueManagement>
+    <ciManagement>
+        <url>N/A</url>
+    </ciManagement>
+
+    <mailingLists>
+        <mailingList>
+            <name>ImageJ Forum</name>
+            <archive>http://forum.imagej.net/</archive>
+        </mailingList>
+    </mailingLists>
+
+    <repositories>
+        <repository>
+            <id>imagej.public</id>
+            <url>http://maven.imagej.net/content/groups/public</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.imagej</groupId>
+            <artifactId>ij</artifactId>
+        </dependency>
+    </dependencies>
+
+
+</project>
