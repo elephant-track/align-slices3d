@@ -8,7 +8,7 @@ ImageJ/Fiji and [Template Matching and Slice Alignment --- ImageJ Plugins](https
 
 ## Install
 
-Copy a plugin file `align_slices3d-1.0.0.jar` to the `plugins/` directory of your ImageJ/Fiji.
+Copy a plugin file [align_slices3d-1.0.0.jar](https://github.com/elephant-track/align-slices3d/releases/download/v1.0.0/align_slices3d-1.0.0.jar) to the `plugins/` directory of your ImageJ/Fiji.
 
 ## Usage
 
